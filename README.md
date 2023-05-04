@@ -12,6 +12,10 @@ How the display is connected from Qt is not restricted here.
 
 ## Todos
 
-- [ ] UI: a button, image display, and log panel.
+- [ ] UI
+  - [x] basic window
+  - [ ] a button
+  - [ ] log panel
+  - [ ] image display
 - [ ] C++ link to a button, which call a python script.
-- [ ] Python Script.
+- [ ] Python Script
