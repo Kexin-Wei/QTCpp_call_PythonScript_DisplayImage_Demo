@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>698</width>
-    <height>486</height>
+    <width>980</width>
+    <height>620</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,9 +17,9 @@
    <widget class="QTextEdit" name="textEdit">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>10</y>
-      <width>681</width>
+      <x>9</x>
+      <y>9</y>
+      <width>931</width>
       <height>61</height>
      </rect>
     </property>
@@ -37,13 +37,13 @@ li.checked::marker { content: &quot;\2612&quot;; }
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;This is a demo for C++ based Qt application created in Qt Creator to call a python script once press the button. The python script will plot a graph and show in the Qt window later.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
     </property>
    </widget>
-   <widget class="QWidget" name="widget" native="true">
+   <widget class="QWidget" name="Left" native="true">
     <property name="geometry">
      <rect>
-      <x>10</x>
-      <y>80</y>
-      <width>331</width>
-      <height>381</height>
+      <x>9</x>
+      <y>125</y>
+      <width>341</width>
+      <height>461</height>
      </rect>
     </property>
     <widget class="QPushButton" name="plotButton">
@@ -52,10 +52,10 @@ li.checked::marker { content: &quot;\2612&quot;; }
      </property>
      <property name="geometry">
       <rect>
-       <x>80</x>
-       <y>60</y>
-       <width>161</width>
-       <height>51</height>
+       <x>9</x>
+       <y>9</y>
+       <width>155</width>
+       <height>36</height>
       </rect>
      </property>
      <property name="font">
@@ -79,12 +79,12 @@ li.checked::marker { content: &quot;\2612&quot;; }
       <bool>true</bool>
      </property>
     </widget>
-    <widget class="QWidget" name="widget_2" native="true">
+    <widget class="QWidget" name="logpanel" native="true">
      <property name="geometry">
       <rect>
        <x>0</x>
-       <y>180</y>
-       <width>331</width>
+       <y>260</y>
+       <width>341</width>
        <height>201</height>
       </rect>
      </property>
@@ -127,35 +127,43 @@ li.checked::marker { content: &quot;\2612&quot;; }
       </property>
      </widget>
     </widget>
-    <zorder>widget_2</zorder>
-    <zorder>plotButton</zorder>
-   </widget>
-   <widget class="QWidget" name="widget_3" native="true">
-    <property name="geometry">
-     <rect>
-      <x>349</x>
-      <y>79</y>
-      <width>341</width>
-      <height>381</height>
-     </rect>
-    </property>
-    <widget class="QGraphicsView" name="graphicsView">
+    <widget class="QWidget" name="Down" native="true">
      <property name="geometry">
       <rect>
-       <x>-5</x>
-       <y>0</y>
-       <width>351</width>
-       <height>381</height>
+       <x>-10</x>
+       <y>40</y>
+       <width>931</width>
+       <height>451</height>
       </rect>
      </property>
     </widget>
+    <zorder>Down</zorder>
+    <zorder>logpanel</zorder>
+    <zorder>plotButton</zorder>
    </widget>
-   <zorder>widget_3</zorder>
-   <zorder>widget</zorder>
+   <widget class="QGraphicsView" name="graphicsView">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>200</y>
+      <width>351</width>
+      <height>381</height>
+     </rect>
+    </property>
+   </widget>
+   <zorder>Left</zorder>
    <zorder>textEdit</zorder>
+   <zorder>graphicsView</zorder>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
  </widget>
+ <tabstops>
+  <tabstop>plotButton</tabstop>
+  <tabstop>plainTextEdit</tabstop>
+  <tabstop>textEdit</tabstop>
+  <tabstop>closeLogButton</tabstop>
+  <tabstop>graphicsView</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>
