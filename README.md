@@ -19,9 +19,8 @@ How the display is connected from Qt is not restricted here.
 
 - [ ] UI
   - [x] basic window
-  - [x] a button
-  - [ ] log panel
-  - [ ] image display
-- [ ] C++ link to a button, which call a python script.
+  - [x] a button, log panel, image display
+  - [ ] layout
+- [ ] connect button to c++, which call a python script.
 - [ ] Python Script
 - [ ] record demonstration video
