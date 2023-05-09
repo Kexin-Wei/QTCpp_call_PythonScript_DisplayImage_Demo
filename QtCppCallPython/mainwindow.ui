@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1063</width>
-    <height>669</height>
+    <width>810</width>
+    <height>456</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -42,9 +42,9 @@
      </spacer>
     </item>
     <item>
-     <layout class="QHBoxLayout" name="horizontalLayout_2">
+     <layout class="QHBoxLayout" name="horizontalLayout" stretch="5,5">
       <item>
-       <layout class="QVBoxLayout" name="verticalLayout_3">
+       <layout class="QVBoxLayout" name="verticalLayout">
         <item>
          <spacer name="verticalSpacer_2">
           <property name="orientation">
@@ -79,12 +79,19 @@
          </spacer>
         </item>
         <item>
-         <widget class="QPlainTextEdit" name="plainTextEdit_3"/>
+         <widget class="QPlainTextEdit" name="logTextEdit"/>
         </item>
        </layout>
       </item>
       <item>
-       <widget class="QGraphicsView" name="graphicsView_2"/>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Image will appear here</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
       </item>
      </layout>
     </item>

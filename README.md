@@ -15,12 +15,17 @@ This c++ project calls a simple python script by pressing a button in the ui win
 
 How the display is connected from Qt is not restricted here.
 
+Here is a demo:
+
+
+
 ## Todos
 
-- [ ] UI
+- [x] UI
   - [x] basic window
   - [x] a button, log panel, image display
-  - [ ] layout
-- [ ] connect button to c++, which call a python script.
-- [ ] Python Script
-- [ ] record demonstration video
+  - [x] layout
+- [x] connect button to c++, which call a python script.
+  - [x] panel display
+  - [x] Python Script
+- [x] record demonstration video
