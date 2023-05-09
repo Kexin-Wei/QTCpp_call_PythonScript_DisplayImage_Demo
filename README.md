@@ -17,6 +17,8 @@ How the display is connected from Qt is not restricted here.
 
 Here is a demo:
 
+https://github.com/Kexin-Wei/QTCppCallPython_Demo/assets/32435488/aef0e6cf-2d48-4768-9bea-593b54e5b1ea
+
 
 
 ## Todos
