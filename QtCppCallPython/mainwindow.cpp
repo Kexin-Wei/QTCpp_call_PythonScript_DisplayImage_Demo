@@ -9,7 +9,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     ui->setupUi(this);
 //    connect(ui->pushButton, &QPushButton::clicked, QApplication::instance(),&QApplication::quit); // close the app when press
-    connect(ui->plotButton, &QPushButton::clicked, this ,&MainWindow::pressButton); // close the app when press
+    connect(ui->plotFigureButton, &QPushButton::clicked, this ,&MainWindow::pressButton); // close the app when press
 
 }
 
