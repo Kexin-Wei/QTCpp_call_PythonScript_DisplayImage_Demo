@@ -1,4 +1,0 @@
-/home/vac/Projects/QTCppCallPython_Demo/build/CMakeFiles/rebuild_cache.dir
-/home/vac/Projects/QTCppCallPython_Demo/build/CMakeFiles/edit_cache.dir
-/home/vac/Projects/QTCppCallPython_Demo/build/CMakeFiles/QtCppCallPython.dir
-/home/vac/Projects/QTCppCallPython_Demo/build/CMakeFiles/QtCppCallPython_autogen.dir
