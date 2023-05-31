@@ -2,6 +2,8 @@
 
 This c++ project calls a simple python script by pressing a button in the ui window, then displays the image (using threading) while printing the running time in second in the log panel.
 
+*Note: to make it run without change the path in `mainwindow.cpp`, `build` folder need to be set under the root, parallel to QtCppCallPython*
+
 ## Platform
 - linux
 - Qt Creator
@@ -31,3 +33,4 @@ https://github.com/Kexin-Wei/QTCppCallPython_Demo/assets/32435488/aef0e6cf-2d48-
   - [x] panel display
   - [x] Python Script
 - [x] record demonstration video
+- [x] change absolute patht to relative path
